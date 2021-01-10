@@ -7,9 +7,8 @@
     <list default="true" id="5bc18641-4b04-41ad-8eeb-a4926a0c458f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/ShehabBlack.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/images/ShehabBlack.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/ShehabWhite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/images/ShehabWhite.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/portfolio-col-1-style-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/portfolio-col-1-style-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/bytanuj.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/portfolio-single-style-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/portfolio-single-style-4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +53,7 @@
       <updated>1609416014937</updated>
       <workItem from="1609416016018" duration="91000" />
       <workItem from="1609416117542" duration="7716000" />
-      <workItem from="1609706614464" duration="16324000" />
+      <workItem from="1609706614464" duration="35123000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1609416223693</created>
@@ -84,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609704983944</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Design Changes on index.html">
+      <created>1609907401208</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609907401208</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
