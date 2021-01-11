@@ -6,6 +6,15 @@
     margin-top: 100px !important;
 }
 
+.tb-em{
+    margin-top: 2.05882em;
+}
+
 bottom-padding{
     padding-bottom: 100px;
+}
+
+.link{
+    color: #2aba54;
+    font-weight: bold;
 }
