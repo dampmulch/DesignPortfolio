@@ -14,7 +14,61 @@ bottom-padding{
     padding-bottom: 100px;
 }
 
-.link{
+.link-quickbooks{
     color: #2aba54;
     font-weight: bold;
+}
+
+.link-quickbooks:visited{
+    color: #2aba54;
+    font-weight: bold;
+}
+.link-quickbooks:hover{
+    color: white;
+    font-weight: bold;
+}
+
+.link-prudential{
+    color: #0078c4;
+    font-weight: bold;
+}
+.link-prudential:visited{
+    color: #0078c4;
+    font-weight: bold;
+}
+
+.link-prudential:hover {
+    color: white;
+    font-weight: bold;
+}
+.link-cooe{
+    color: #181819;
+    font-weight: bold;
+}
+.link-cooe:visited{
+    color: #f85066;
+    font-weight: bold;
+}
+
+.link-cooe:hover {
+    color: white;
+    font-weight: bold;
+}
+a:hover{
+    color: white;
+}
+a:active{
+    color: white;
+}
+
+.header-top-margin{
+    margin-top:
+}
+
+.hoverwhite:hover{
+    color: black;
+}
+
+.home-padding-bottom{
+    padding-bottom: 15px !important;
 }
