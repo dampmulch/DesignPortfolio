@@ -41,8 +41,12 @@ bottom-padding{
     color: white;
     font-weight: bold;
 }
+.cooe{
+    color: #f85066;
+    font-weight: bold;
+}
 .link-cooe{
-    color: #181819;
+    color: #f85066;
     font-weight: bold;
 }
 .link-cooe:visited{
@@ -59,10 +63,6 @@ a:hover{
 }
 a:active{
     color: white;
-}
-
-.header-top-margin{
-    margin-top:
 }
 
 .hoverwhite:hover{
