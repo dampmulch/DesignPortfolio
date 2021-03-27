@@ -10,52 +10,65 @@
     margin-top: 2.05882em;
 }
 
-bottom-padding{
+.bottom-padding{
     padding-bottom: 100px;
 }
 
 .link-quickbooks{
-    color: #2aba54;
+    color: #ffffff;
     font-weight: bold;
 }
 
 .link-quickbooks:visited{
-    color: #2aba54;
+    color: #ffffff;
     font-weight: bold;
 }
 .link-quickbooks:hover{
-    color: white;
+    color: #2aba54;
+    font-weight: bold;
+}
+.link-quickbooks-black{
+    color: #000000;
+    font-weight: bold;
+}
+
+.link-quickbooks-black:visited{
+    color: #000000;
+    font-weight: bold;
+}
+.link-quickbooks-black:hover{
+    color: #2aba54;
     font-weight: bold;
 }
 
 .link-prudential{
-    color: #0078c4;
+    color: #ffffff;
     font-weight: bold;
 }
 .link-prudential:visited{
-    color: #0078c4;
+    color: #ffffff;
     font-weight: bold;
 }
 
 .link-prudential:hover {
-    color: white;
+    color: #0078c4;
     font-weight: bold;
 }
 .cooe{
-    color: #f85066;
+    color: #ffffff;
     font-weight: bold;
 }
 .link-cooe{
-    color: #f85066;
+    color: #ffffff;
     font-weight: bold;
 }
 .link-cooe:visited{
-    color: #f85066;
+    color: #ffffff;
     font-weight: bold;
 }
 
 .link-cooe:hover {
-    color: white;
+    color: #f85066;
     font-weight: bold;
 }
 a:hover{
@@ -71,4 +84,8 @@ a:active{
 
 .home-padding-bottom{
     padding-bottom: 15px !important;
+}
+
+.invisible{
+    border-top: 0px solid rgba(14, 14, 14, .1);
 }
