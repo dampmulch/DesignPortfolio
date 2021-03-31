@@ -89,3 +89,7 @@ a:active{
 .invisible{
     border-top: 0px solid rgba(14, 14, 14, .1);
 }
+
+.fig{
+    font-size: 14px;
+}
