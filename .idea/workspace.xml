@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bc18641-4b04-41ad-8eeb-a4926a0c458f" name="Default Changelist" comment="Design Changes on index.html">
-      <change afterPath="$PROJECT_DIR$/dist/assets/images/single-portfolio/secondaryui.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/images/single-portfolio/zapierui.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/quickbooks-casestudy.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/quickbooks-casestudy.html" afterDir="false" />
-    </list>
+    <list default="true" id="5bc18641-4b04-41ad-8eeb-a4926a0c458f" name="Default Changelist" comment="Design Changes on index.html" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,6 +57,7 @@
       <workItem from="1616527783094" duration="3803000" />
       <workItem from="1616798117204" duration="20364000" />
       <workItem from="1617162450286" duration="3163000" />
+      <workItem from="1617416159651" duration="1660000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1609416223693</created>
@@ -272,6 +267,23 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
