@@ -1,5 +1,5 @@
 :root {
-    --tmb-scrollbar-width: 0px
+    --tmb-scrollbar-width: 0px;
 }
 
 .background-image img, .background-video, .card-blog .card-img img, .card-fullscreen .card-img img, .card.card-image-lg img, .card.card-image-md img, .card.card-image-sm img, .card.card-image-xl img, .gallery-item-lg img, .gallery-item-md img, .gallery-item-sm img, .gallery-item-xl img, .object-fit-image {
@@ -10,7 +10,7 @@
     height: 100%;
     font-family: "object-fit: cover";
     -o-object-fit: cover;
-    object-fit: cover
+    object-fit: cover;
 }
 
 .icon-arrow, .swiper-button-next svg, .swiper-button-prev svg {
@@ -106,7 +106,7 @@
 
 *, ::after, ::before {
     -webkit-box-sizing: border-box;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 html {
@@ -20228,7 +20228,7 @@ html {
 }
 
 body {
-    position: relative;
+    position: static;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -20237,7 +20237,7 @@ body {
     padding-right: var(--tmb-scrollbar-width);
     overflow-x: hidden;
     overflow-y: initial;
-    word-break: break-word
+    word-break: break-word;
 }
 
 .content-wrap {
@@ -22571,12 +22571,12 @@ a:focus, a:hover {
 
 .gallery-item img {
     width: 100%;
-    will-change: transform;
+    /* will-change: transform; */
     -webkit-transition: -webkit-transform 1.8s cubic-bezier(.2, 1, .2, 1);
     transition: -webkit-transform 1.8s cubic-bezier(.2, 1, .2, 1);
     -o-transition: transform 1.8s cubic-bezier(.2, 1, .2, 1);
     transition: transform 1.8s cubic-bezier(.2, 1, .2, 1);
-    transition: transform 1.8s cubic-bezier(.2, 1, .2, 1), -webkit-transform 1.8s cubic-bezier(.2, 1, .2, 1)
+    transition: transform 1.8s cubic-bezier(.2, 1, .2, 1), -webkit-transform 1.8s cubic-bezier(.2, 1, .2, 1);
 }
 
 .gallery-item .btn {
@@ -22629,7 +22629,7 @@ a:focus, a:hover {
 
 .gallery-item-lg, .gallery-item-md, .gallery-item-sm, .gallery-item-xl {
     position: relative;
-    overflow: hidden
+    overflow: hidden;
 }
 
 @media (max-width: 619.98px) {
