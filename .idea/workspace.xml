@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bc18641-4b04-41ad-8eeb-a4926a0c458f" name="Default Changelist" comment="Design Changes on index.html">
+    <list default="true" id="5bc18641-4b04-41ad-8eeb-a4926a0c458f" name="Default Changelist" comment="Added new imaged to the Quickbooks Case and fixed responsive issue on 6 column wide images.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/InterviewContext.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/images/single-portfolio/InterviewContext.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/whatisautomation.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/images/single-portfolio/whatisautomation.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/quickbooks-casestudy.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/quickbooks-casestudy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/normal.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/normal.min.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +64,7 @@
       <workItem from="1617671138550" duration="11303000" />
       <workItem from="1618987383536" duration="69000" />
       <workItem from="1619683163179" duration="2973000" />
-      <workItem from="1619778793248" duration="10091000" />
+      <workItem from="1619778793248" duration="13391000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1609416223693</created>
@@ -299,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619928609724</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Added new imaged to the Quickbooks Case and fixed responsive issue on 6 column wide images.">
+      <created>1619959674085</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1619959674085</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,6 +326,7 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Added Index" />
     <MESSAGE value="Design Changes on index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Design Changes on index.html" />
+    <MESSAGE value="Added new imaged to the Quickbooks Case and fixed responsive issue on 6 column wide images." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new imaged to the Quickbooks Case and fixed responsive issue on 6 column wide images." />
   </component>
 </project>
