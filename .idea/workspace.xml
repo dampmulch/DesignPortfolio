@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bc18641-4b04-41ad-8eeb-a4926a0c458f" name="Default Changelist" comment="updated footer text">
+    <list default="true" id="5bc18641-4b04-41ad-8eeb-a4926a0c458f" name="Default Changelist" comment="updated nav bar with info and mapped pages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/eyetracking.gif" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/images/single-portfolio/eyetracking.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/quickbooks-casestudy.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/quickbooks-casestudy.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -72,7 +72,8 @@
       <workItem from="1621094904717" duration="10634000" />
       <workItem from="1621553158267" duration="7592000" />
       <workItem from="1621856067036" duration="1845000" />
-      <workItem from="1621931188529" duration="8867000" />
+      <workItem from="1621931188529" duration="20402000" />
+      <workItem from="1622497048411" duration="7037000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1609416223693</created>
@@ -354,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620224706272</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="updated nav bar with info and mapped pages">
+      <created>1622448975466</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1622448975466</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,6 +389,7 @@
     <MESSAGE value="changed file name to (hopefully) fix fancybox bug on deployment." />
     <MESSAGE value="fixed padding problem on casestudy footer" />
     <MESSAGE value="updated footer text" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated footer text" />
+    <MESSAGE value="updated nav bar with info and mapped pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated nav bar with info and mapped pages" />
   </component>
 </project>

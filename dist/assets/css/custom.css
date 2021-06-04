@@ -28,17 +28,19 @@
     font-weight: bold;
 }
 .link-quickbooks-black{
-    color: #000000;
+    color: #114B22;
     font-weight: bold;
 }
 
 .link-quickbooks-black:visited{
-    color: #000000;
+    color: #114B22;
     font-weight: bold;
 }
 .link-quickbooks-black:hover{
-    color: #2aba54;
+    color: #061f0c;
     font-weight: bold;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
 }
 
 .link-prudential{
@@ -108,4 +110,14 @@ a:active{
     font-size: 1.78em;
     color: white;
     font-weight: 450 !important;
+}
+
+.title-top-black{
+    font-size: 1.78em;
+    color: black;
+    font-weight: 450 !important;
+}
+
+.mailphone-item-blacktext:hover{
+    color: black;
 }
