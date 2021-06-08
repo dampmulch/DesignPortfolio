@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78a896d1-31c2-41c2-94d0-6c061e3ee3ef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+    <list default="true" id="78a896d1-31c2-41c2-94d0-6c061e3ee3ef" name="Default Changelist" comment="testing before i lose my mind lol">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/quickbooks-casestudy.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/quickbooks-casestudy.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +41,16 @@
       <workItem from="1623107529545" duration="77000" />
       <workItem from="1623170650904" duration="63000" />
       <workItem from="1623170719917" duration="46000" />
-      <workItem from="1623170767071" duration="54000" />
+      <workItem from="1623170767071" duration="1077000" />
     </task>
+    <task id="LOCAL-00001" summary="testing before i lose my mind lol">
+      <created>1623170836465</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1623170836465</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,5 +79,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="testing before i lose my mind lol" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing before i lose my mind lol" />
   </component>
 </project>
