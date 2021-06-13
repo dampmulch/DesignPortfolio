@@ -1,64 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78a896d1-31c2-41c2-94d0-6c061e3ee3ef" name="Default Changelist" comment="added new &quot;next project&quot; img for quickbooks -&gt; Prudential">
+    <list default="true" id="78a896d1-31c2-41c2-94d0-6c061e3ee3ef" name="Default Changelist" comment="deleted images that aren't used and changed images">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-1-1-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-1-2-1366-1000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-1-2-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-1-3-1366-1000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-1-3-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-1-4-1366-1000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-1-4-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-1-5-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-1-6-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-1-6-910-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-1-7-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-1-7-910-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-1-8-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-1-8-910-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-2-1-1170-1160.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-2-1-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-2-2-1170-1160.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-2-2-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-2-3-1170-1160.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-2-3-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-2-4-1170-1160.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-2-4-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-3-1-1170-1160.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-3-1-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-3-2-1170-1160.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-3-2-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-3-3-1170-1160.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-3-3-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-4-1-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-4-2-1140-1000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-4-2-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-4-3-1140-1000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-4-3-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-4-4-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-5-1-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-5-2-1540-900.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-5-2-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-5-3-1540-900.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-5-3-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-5-4-1540-900.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-5-4-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-6-1-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-6-1-740-700.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-6-2-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-6-2-740-700.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-6-3-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-6-3-740-700.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-6-4-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-6-4-740-700.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-6-5-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-6-5-740-700.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-6-6-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-6-6-740-700.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-6-slide-1-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-6-slide-2-1920-1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/style-6-slide-3-1920-1080.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/AppConnect.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/images/single-portfolio/AppConnect.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +43,7 @@
       <workItem from="1623170650904" duration="63000" />
       <workItem from="1623170719917" duration="46000" />
       <workItem from="1623170767071" duration="6793000" />
-      <workItem from="1623542531921" duration="105000" />
+      <workItem from="1623542531921" duration="787000" />
     </task>
     <task id="LOCAL-00001" summary="testing before i lose my mind lol">
       <created>1623170836465</created>
@@ -128,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623519773469</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="deleted images that aren't used and changed images">
+      <created>1623542668261</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1623542668261</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +115,7 @@
     <MESSAGE value="added images, hopefully past commits dont mess this up" />
     <MESSAGE value="fixed padding" />
     <MESSAGE value="added new &quot;next project&quot; img for quickbooks -&gt; Prudential" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new &quot;next project&quot; img for quickbooks -&gt; Prudential" />
+    <MESSAGE value="deleted images that aren't used and changed images" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted images that aren't used and changed images" />
   </component>
 </project>
