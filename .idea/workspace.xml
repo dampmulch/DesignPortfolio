@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78a896d1-31c2-41c2-94d0-6c061e3ee3ef" name="Default Changelist" comment="deleted images that aren't used and changed images">
+    <list default="true" id="78a896d1-31c2-41c2-94d0-6c061e3ee3ef" name="Default Changelist" comment="changed small detail in AppConnect DropShadow">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/single-portfolio/quickstartcomponent.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/images/single-portfolio/quickstartcomponent.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/quickbooks-casestudy.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/quickbooks-casestudy.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +43,7 @@
       <workItem from="1623170650904" duration="63000" />
       <workItem from="1623170719917" duration="46000" />
       <workItem from="1623170767071" duration="6793000" />
-      <workItem from="1623542531921" duration="1896000" />
+      <workItem from="1623542531921" duration="7294000" />
     </task>
     <task id="LOCAL-00001" summary="testing before i lose my mind lol">
       <created>1623170836465</created>
@@ -85,7 +87,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623543454105</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="changed small detail in AppConnect DropShadow">
+      <created>1623544717732</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1623544717732</updated>
+    </task>
+    <task id="LOCAL-00008" summary="changed small detail in AppConnect DropShadow">
+      <created>1623544729407</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1623544729407</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +137,7 @@
     <MESSAGE value="fixed padding" />
     <MESSAGE value="added new &quot;next project&quot; img for quickbooks -&gt; Prudential" />
     <MESSAGE value="deleted images that aren't used and changed images" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted images that aren't used and changed images" />
+    <MESSAGE value="changed small detail in AppConnect DropShadow" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed small detail in AppConnect DropShadow" />
   </component>
 </project>
