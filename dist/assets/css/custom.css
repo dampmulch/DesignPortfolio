@@ -121,3 +121,7 @@ a:active{
 .mailphone-item-blacktext:hover{
     color: black;
 }
+
+.iconcolor{
+    fill: white;
+}
