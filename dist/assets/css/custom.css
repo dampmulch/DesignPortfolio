@@ -125,3 +125,19 @@ a:active{
 .iconcolor{
     fill: white;
 }
+
+.animate{
+    animation: move .8s infinite;
+    position: relative;
+}
+@keyframes move {
+    0% {
+        top: 0px;
+    }
+    50% {
+        top: 5px;
+    }
+    100% {
+        top: 0px;
+    }
+}
