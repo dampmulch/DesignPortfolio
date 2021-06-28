@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78a896d1-31c2-41c2-94d0-6c061e3ee3ef" name="Default Changelist" comment="added wayfinding and started prudential">
-      <change afterPath="$PROJECT_DIR$/dist/aboutme.html" afterDir="false" />
+    <list default="true" id="78a896d1-31c2-41c2-94d0-6c061e3ee3ef" name="Default Changelist" comment="added about me">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/aboutme.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/aboutme.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,7 @@
       <workItem from="1623170650904" duration="63000" />
       <workItem from="1623170719917" duration="46000" />
       <workItem from="1623170767071" duration="6793000" />
-      <workItem from="1623542531921" duration="57899000" />
+      <workItem from="1623542531921" duration="59125000" />
     </task>
     <task id="LOCAL-00001" summary="testing before i lose my mind lol">
       <created>1623170836465</created>
@@ -189,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624816328150</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="added about me">
+      <created>1624902894528</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1624902894528</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +242,7 @@
     <MESSAGE value="just need to add reflection to wayfinding case" />
     <MESSAGE value="finished Wayfinding" />
     <MESSAGE value="added wayfinding and started prudential" />
-    <option name="LAST_COMMIT_MESSAGE" value="added wayfinding and started prudential" />
+    <MESSAGE value="added about me" />
+    <option name="LAST_COMMIT_MESSAGE" value="added about me" />
   </component>
 </project>
