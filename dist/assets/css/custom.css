@@ -141,3 +141,7 @@ a:active{
         top: 0px;
     }
 }
+
+.ptfix{
+    padding-bottom: 230px;
+}
