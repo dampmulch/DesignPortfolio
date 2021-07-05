@@ -4,7 +4,6 @@
     <list default="true" id="78a896d1-31c2-41c2-94d0-6c061e3ee3ef" name="Default Changelist" comment="finished about me">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/aboutme.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/aboutme.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,7 @@
       <workItem from="1623170650904" duration="63000" />
       <workItem from="1623170719917" duration="46000" />
       <workItem from="1623170767071" duration="6793000" />
-      <workItem from="1623542531921" duration="67001000" />
+      <workItem from="1623542531921" duration="70971000" />
     </task>
     <task id="LOCAL-00001" summary="testing before i lose my mind lol">
       <created>1623170836465</created>
@@ -210,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625000506625</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="finished about me">
+      <created>1625171064480</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1625171064480</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
