@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78a896d1-31c2-41c2-94d0-6c061e3ee3ef" name="Default Changelist" comment="Portfolio Finished!!!!!!!... for now">
+    <list default="true" id="78a896d1-31c2-41c2-94d0-6c061e3ee3ef" name="Default Changelist" comment="added google tracking">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/aboutme.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/aboutme.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/prudentialdesign.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/prudentialdesign.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/quickbooks-casestudy.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/quickbooks-casestudy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/wayfindingdesign.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/wayfindingdesign.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +49,7 @@
       <workItem from="1623542531921" duration="70993000" />
       <workItem from="1625505703319" duration="10615000" />
       <workItem from="1625808616342" duration="957000" />
-      <workItem from="1625811632770" duration="726000" />
+      <workItem from="1625811632770" duration="1399000" />
     </task>
     <task id="LOCAL-00001" summary="testing before i lose my mind lol">
       <created>1623170836465</created>
@@ -287,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625808968144</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="added google tracking">
+      <created>1625940589295</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1625940589295</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,6 +342,7 @@
     <MESSAGE value="Added resume" />
     <MESSAGE value="fixed some links..." />
     <MESSAGE value="Portfolio Finished!!!!!!!... for now" />
-    <option name="LAST_COMMIT_MESSAGE" value="Portfolio Finished!!!!!!!... for now" />
+    <MESSAGE value="added google tracking" />
+    <option name="LAST_COMMIT_MESSAGE" value="added google tracking" />
   </component>
 </project>
