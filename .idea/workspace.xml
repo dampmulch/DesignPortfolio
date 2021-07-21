@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78a896d1-31c2-41c2-94d0-6c061e3ee3ef" name="Default Changelist" comment="added google tracking">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/custom.css" afterDir="false" />
-    </list>
+    <list default="true" id="78a896d1-31c2-41c2-94d0-6c061e3ee3ef" name="Default Changelist" comment="fixed link" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +49,7 @@
       <workItem from="1625811632770" duration="4682000" />
       <workItem from="1626337827554" duration="619000" />
       <workItem from="1626349968407" duration="98000" />
+      <workItem from="1626864865897" duration="684000" />
     </task>
     <task id="LOCAL-00001" summary="testing before i lose my mind lol">
       <created>1623170836465</created>
@@ -298,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625943861124</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="fixed link">
+      <created>1626864948089</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1626864948089</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,6 +357,7 @@
     <MESSAGE value="fixed some links..." />
     <MESSAGE value="Portfolio Finished!!!!!!!... for now" />
     <MESSAGE value="added google tracking" />
-    <option name="LAST_COMMIT_MESSAGE" value="added google tracking" />
+    <MESSAGE value="fixed link" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed link" />
   </component>
 </project>
