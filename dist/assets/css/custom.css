@@ -96,11 +96,17 @@ a:active{
     font-size: 14px;
 }
 
-.front-type-prop{
-    /*font-size: 1.78em;*/
+.front-type-prop {
     font-weight: 450 !important;
     margin-bottom: 2em;
-}
+  }
+  
+  /* Apply font-size for non-mobile screens */
+  @media screen and (min-width: 768px) {
+    .front-type-prop {
+      font-size: 1.78em;
+    }
+  }
 
 .links-new{
     font-size: 4em;
