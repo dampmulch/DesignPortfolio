@@ -427,7 +427,7 @@ template {
 }
 
 .lead {
-    font-size: 1.25em;
+    font-size: 1.25rem;
     font-weight: 300
 }
 
@@ -17787,8 +17787,8 @@ a.text-dark:focus, a.text-dark:hover {
 
 @media (max-width: 827.98px) {
     .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
-        padding-right: 40px;
-        padding-left: 40px
+        padding-right: 20px;
+        padding-left: 20px
     }
 }
 
@@ -20559,8 +20559,8 @@ a:focus, a:hover {
 
 @media (max-width: 827.98px) {
     .navbar-top .container {
-        padding-right: 40px;
-        padding-left: 40px
+        padding-right: 20px;
+        padding-left: 20px
     }
 }
 
