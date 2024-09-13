@@ -155,3 +155,8 @@ a:active{
 .babypadding{
     padding-bottom: 10px;
 }
+
+.note{
+    font-style: italic;
+    color: #949494;
+}
