@@ -160,3 +160,21 @@ a:active{
     font-style: italic;
     color: #949494;
 }
+
+.logo-spin {
+    animation: spin 2s linear infinite !important;
+    display: inline-block !important;
+    transform-origin: center center !important;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
