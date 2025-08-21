@@ -409,11 +409,8 @@ function initializeAllLogos() {
                 });
                 
                 logoElement.addEventListener('mouseleave', function() {
-                    // Random delay between 1-5 seconds before going skewed again
-                    const randomDelay = Math.random() * 4000 + 1000; // 1000-5000ms
-                    hoverTimeouts[logoId] = setTimeout(() => {
-                        randomSkewLogo(logoId);
-                    }, randomDelay);
+                    // Immediately go skewed again on mouse leave
+                    randomSkewLogo(logoId);
                 });
             }
             

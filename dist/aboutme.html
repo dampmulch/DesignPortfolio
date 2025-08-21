@@ -101,10 +101,10 @@
             </div>
         </header>
         <!-- style 2 -->
-        <div class="navbar navbar-mobile navbar-mobile-style-2" id="navbar-mobile-style-2">
+        <div class="navbar navbar-mobile navbar-mobile-style-2 navbar-dark" id="navbar-mobile-style-2">
             <div class="shape justify-content-end">
                 <svg data-rellax-speed="0" width="544" height="362" viewBox="0 0 544 362" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="320.5" cy="41.5" r="320.5" fill="#ececec" />
+                    <circle cx="320.5" cy="41.5" r="320.5" fill=" #202020" />
                 </svg>
             </div>
             <div class="navbar-head">
@@ -361,36 +361,70 @@
         function randomSkewLogo(logoId) {
             const letters = document.querySelectorAll(`#${logoId} .skewed-letter`);
             letters.forEach(letter => {
-                const skewX = (Math.random() - 0.5) * 120; // Random between -60 and 60
-                const skewY = (Math.random() - 0.5) * 100; // Random between -50 and 50
-                const rotate = (Math.random() - 0.5) * 360; // Random rotation between -180 and 180
+                const skewX = (Math.random() - 0.5) * 120;
+                const skewY = (Math.random() - 0.5) * 100;
+                const rotate = (Math.random() - 0.5) * 360;
                 letter.style.transform = `skew(${skewX}deg, ${skewY}deg) rotate(${rotate}deg)`;
             });
         }
 
+        function delayedSkewLogo(logoId, delay = 1000) {
+            const letters = document.querySelectorAll(`#${logoId} .skewed-letter`);
+            // First, ensure letters start straight
+            letters.forEach(letter => {
+                letter.style.transform = 'skew(0deg, 0deg) rotate(0deg)';
+            });
+            
+            // After delay, animate to skewed state
+            setTimeout(() => {
+                randomSkewLogo(logoId);
+            }, delay);
+        }
+
+        function straightenLogo(logoId) {
+            const letters = document.querySelectorAll(`#${logoId} .skewed-letter`);
+            letters.forEach(letter => {
+                letter.style.transform = 'skew(0deg, 0deg) rotate(0deg)';
+            });
+        }
+
+        let hoverTimeouts = {}; // Store timeout IDs for each logo
+
         function initializeAllLogos() {
-            // All possible logo IDs
             const logoIds = [
-                'logo-homepage', 'logo-quickbooks-desktop', 'logo-quickbooks-mobile',
-                'logo-wayfinding-desktop', 'logo-wayfinding-mobile', 'logo-prudential-desktop',
-                'logo-prudential-mobile', 'logo-aboutme-desktop', 'logo-aboutme-mobile',
-                'logo-axios-desktop', 'logo-axios-mobile', 'logo-aboutme-footer'
+                'logo-homepage-desktop', 'logo-homepage-mobile', 'logo-homepage-footer',
+                'logo-quickbooks-desktop', 'logo-quickbooks-mobile', 'logo-wayfinding-desktop',
+                'logo-wayfinding-mobile', 'logo-prudential-desktop', 'logo-prudential-mobile',
+                'logo-aboutme-desktop', 'logo-aboutme-mobile', 'logo-axios-desktop',
+                'logo-axios-mobile', 'logo-aboutme-footer'
             ];
             
             logoIds.forEach(logoId => {
                 const logoElement = document.getElementById(logoId);
                 if (logoElement) {
-                    // Apply random skew on page load
-                    randomSkewLogo(logoId);
+                    // Use delayed skew animation for all logos
+                    delayedSkewLogo(logoId, 1000); // 1 second delay
+                    
+                    // Add hover handlers for all logos
+                    logoElement.addEventListener('mouseenter', function() {
+                        // Clear any existing timeout
+                        if (hoverTimeouts[logoId]) {
+                            clearTimeout(hoverTimeouts[logoId]);
+                        }
+                        // Straighten immediately on hover
+                        straightenLogo(logoId);
+                    });
+                    
+                    logoElement.addEventListener('mouseleave', function() {
+                        // Immediately go skewed again on mouse leave
+                        randomSkewLogo(logoId);
+                    });
                     
                     // Add click handler for re-skewing
                     logoElement.parentElement.addEventListener('click', function(e) {
                         e.preventDefault();
                         randomSkewLogo(logoId);
-                        // Small delay then navigate
-                        setTimeout(() => {
-                            window.location.href = this.getAttribute('href');
-                        }, 200);
+                        setTimeout(() => { window.location.href = this.getAttribute('href'); }, 200);
                     });
                 }
             });

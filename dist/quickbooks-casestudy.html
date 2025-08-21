@@ -101,10 +101,10 @@
             </div>
         </header>
         <!-- style 2 -->
-        <div class="navbar navbar-mobile navbar-mobile-style-2" id="navbar-mobile-style-2">
+        <div class="navbar navbar-mobile navbar-mobile-style-2 navbar-dark" id="navbar-mobile-style-2">
             <div class="shape justify-content-end">
                 <svg data-rellax-speed="0" width="544" height="362" viewBox="0 0 544 362" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="320.5" cy="41.5" r="320.5" fill="#ececec" />
+                    <circle cx="320.5" cy="41.5" r="320.5" fill=" #202020" />
                 </svg>
             </div>
             <div class="navbar-head">
@@ -662,12 +662,53 @@
             });
         }
 
+        function delayedSkewLogo(logoId, delay = 1000) {
+            const letters = document.querySelectorAll(`#${logoId} .skewed-letter`);
+            // First, ensure letters start straight
+            letters.forEach(letter => {
+                letter.style.transform = 'skew(0deg, 0deg) rotate(0deg)';
+            });
+            
+            // After delay, animate to skewed state
+            setTimeout(() => {
+                randomSkewLogo(logoId);
+            }, delay);
+        }
+
+        function straightenLogo(logoId) {
+            const letters = document.querySelectorAll(`#${logoId} .skewed-letter`);
+            letters.forEach(letter => {
+                letter.style.transform = 'skew(0deg, 0deg) rotate(0deg)';
+            });
+        }
+
+        let hoverTimeouts = {}; // Store timeout IDs for each logo
+
         function initializeAllLogos() {
-            const logoIds = ['logo-homepage', 'logo-quickbooks-desktop', 'logo-quickbooks-mobile', 'logo-wayfinding-desktop', 'logo-wayfinding-mobile', 'logo-prudential-desktop', 'logo-prudential-mobile', 'logo-aboutme-desktop', 'logo-aboutme-mobile', 'logo-axios-desktop', 'logo-axios-mobile', 'logo-quickbooks-footer'];
+            const logoIds = ['logo-homepage-desktop', 'logo-homepage-mobile', 'logo-homepage-footer', 'logo-quickbooks-desktop', 'logo-quickbooks-mobile', 'logo-wayfinding-desktop', 'logo-wayfinding-mobile', 'logo-prudential-desktop', 'logo-prudential-mobile', 'logo-aboutme-desktop', 'logo-aboutme-mobile', 'logo-axios-desktop', 'logo-axios-mobile', 'logo-quickbooks-footer'];
+            
             logoIds.forEach(logoId => {
                 const logoElement = document.getElementById(logoId);
                 if (logoElement) {
-                    randomSkewLogo(logoId);
+                    // Use delayed skew animation for all logos
+                    delayedSkewLogo(logoId, 1000); // 1 second delay
+                    
+                    // Add hover handlers for all logos
+                    logoElement.addEventListener('mouseenter', function() {
+                        // Clear any existing timeout
+                        if (hoverTimeouts[logoId]) {
+                            clearTimeout(hoverTimeouts[logoId]);
+                        }
+                        // Straighten immediately on hover
+                        straightenLogo(logoId);
+                    });
+                    
+                    logoElement.addEventListener('mouseleave', function() {
+                        // Immediately go skewed again on mouse leave
+                        randomSkewLogo(logoId);
+                    });
+                    
+                    // Add click handler for re-skewing
                     logoElement.parentElement.addEventListener('click', function(e) {
                         e.preventDefault();
                         randomSkewLogo(logoId);
