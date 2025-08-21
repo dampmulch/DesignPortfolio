@@ -36,7 +36,14 @@
         <header class="navbar navbar-top navbar-expand-lg navbar-dark navbar-fixed">
             <div class="container">
                 <a href="../index.html" class="nav-link active">
-                    <span class="nav-link-name title-top logo-spin">Shehab.</span>
+                    <span class="nav-link-name skewed-logo" id="logo-quickbooks-desktop">
+                        <span class="skewed-letter">S</span>
+                        <span class="skewed-letter">h</span>
+                        <span class="skewed-letter">e</span>
+                        <span class="skewed-letter">h</span>
+                        <span class="skewed-letter">a</span>
+                        <span class="skewed-letter">b</span>
+                    </span>
                 </a>
                 <a class="navbar-toggle" href="#navbar-mobile-style-2" data-fancybox data-base-class="fancybox-navbar" data-keyboard="false" data-auto-focus="false" data-touch="false" data-close-existing="true" data-small-btn="false" data-toolbar="false">
                     <span></span>
@@ -103,7 +110,14 @@
             <div class="navbar-head">
                 <div class="container">
                     <a href="../index.html" class="nav-link active">
-                        <span class="nav-link-name title-top logo-spin">Shehab.</span>
+                        <span class="nav-link-name skewed-logo" id="logo-quickbooks-mobile">
+                            <span class="skewed-letter">S</span>
+                            <span class="skewed-letter">h</span>
+                            <span class="skewed-letter">e</span>
+                            <span class="skewed-letter">h</span>
+                            <span class="skewed-letter">a</span>
+                            <span class="skewed-letter">b</span>
+                        </span>
                     </a>
                     <a class="navbar-toggle" href="#" data-fancybox-close>
                         <span></span>
@@ -562,7 +576,14 @@
                 <div class="row gh-1 gv-2">
                     <div class="col-12 col-md mt-md-04">
                         <a href="../index.html">
-                            <img width="108" src="assets/images/ShehabWhite.svg" alt="Shehab Ibrahim logo in black">
+                            <span class="nav-link-name skewed-logo" id="logo-quickbooks-footer" style="font-size: 1.78em; font-weight: 450; color: white;">
+                                <span class="skewed-letter">S</span>
+                                <span class="skewed-letter">h</span>
+                                <span class="skewed-letter">e</span>
+                                <span class="skewed-letter">h</span>
+                                <span class="skewed-letter">a</span>
+                                <span class="skewed-letter">b</span>
+                            </span>
                         </a>
                     </div>
                     <div class="col-12 col-md-4 mt-md-04">
@@ -628,6 +649,35 @@
         <script src="assets/vendor/fancybox/dist/jquery.fancybox.min.js"></script>
         <!-- Themebau -->
         <script src="assets/js/normal.min.js"></script>
+        
+        <!-- Universal skew logo script -->
+        <script>
+        function randomSkewLogo(logoId) {
+            const letters = document.querySelectorAll(`#${logoId} .skewed-letter`);
+            letters.forEach(letter => {
+                const skewX = (Math.random() - 0.5) * 120;
+                const skewY = (Math.random() - 0.5) * 100;
+                const rotate = (Math.random() - 0.5) * 360;
+                letter.style.transform = `skew(${skewX}deg, ${skewY}deg) rotate(${rotate}deg)`;
+            });
+        }
+
+        function initializeAllLogos() {
+            const logoIds = ['logo-homepage', 'logo-quickbooks-desktop', 'logo-quickbooks-mobile', 'logo-wayfinding-desktop', 'logo-wayfinding-mobile', 'logo-prudential-desktop', 'logo-prudential-mobile', 'logo-aboutme-desktop', 'logo-aboutme-mobile', 'logo-axios-desktop', 'logo-axios-mobile', 'logo-quickbooks-footer'];
+            logoIds.forEach(logoId => {
+                const logoElement = document.getElementById(logoId);
+                if (logoElement) {
+                    randomSkewLogo(logoId);
+                    logoElement.parentElement.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        randomSkewLogo(logoId);
+                        setTimeout(() => { window.location.href = this.getAttribute('href'); }, 200);
+                    });
+                }
+            });
+        }
+        document.addEventListener('DOMContentLoaded', initializeAllLogos);
+        </script>
         <!-- END: Scripts -->
     </body>
 </html>

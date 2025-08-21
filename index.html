@@ -38,7 +38,14 @@
 <header class="navbar navbar-top navbar-expand-lg navbar-dark navbar-fixed">
     <div class="container">
         <a href="index.html" class="nav-link active">
-            <span class="nav-link-name title-top logo-spin">Shehab.</span>
+            <span class="nav-link-name skewed-logo" id="logo-homepage-desktop">
+                <span class="skewed-letter">S</span>
+                <span class="skewed-letter">h</span>
+                <span class="skewed-letter">e</span>
+                <span class="skewed-letter">h</span>
+                <span class="skewed-letter">a</span>
+                <span class="skewed-letter">b</span>
+            </span>
         </a>
         <a class="navbar-toggle order-4" href="#navbar-mobile-style-2" data-fancybox="" data-base-class="fancybox-navbar" data-keyboard="false" data-auto-focus="false" data-touch="false" data-close-existing="true" data-small-btn="false" data-toolbar="false">
             <span></span>
@@ -105,7 +112,14 @@
     <div class="navbar-head">
         <div class="container">
             <a href="index.html" class="nav-link active">
-                <span class="nav-link-name title-top logo-spin">Shehab.</span>
+                <span class="nav-link-name skewed-logo" id="logo-homepage-mobile">
+                    <span class="skewed-letter">S</span>
+                    <span class="skewed-letter">h</span>
+                    <span class="skewed-letter">e</span>
+                    <span class="skewed-letter">h</span>
+                    <span class="skewed-letter">a</span>
+                    <span class="skewed-letter">b</span>
+                </span>
             </a>
             <a class="navbar-toggle" href="#" data-fancybox-close="">
                 <span></span>
@@ -261,7 +275,14 @@
         <div class="row gh-1 gv-2">
             <div class="col-12 col-md mt-md-04">
                 <a href="index.html">
-                    <img width="108" src="dist/assets/images/ShehabWhite.svg" alt="Shehab Ibrahim logo in white">
+                    <span class="nav-link-name skewed-logo" id="logo-homepage-footer" style="font-size: 1.78em; font-weight: 450; color: white;">
+                        <span class="skewed-letter">S</span>
+                        <span class="skewed-letter">h</span>
+                        <span class="skewed-letter">e</span>
+                        <span class="skewed-letter">h</span>
+                        <span class="skewed-letter">a</span>
+                        <span class="skewed-letter">b</span>
+                    </span>
                 </a>
             </div>
             <div class="col-12 col-md-4 mt-md-04">
@@ -320,6 +341,98 @@
 <script src="dist/assets/vendor/fancybox/dist/jquery.fancybox.min.js"></script>
 <!-- Themebau -->
 <script src="dist/assets/js/normal.min.js"></script>
+
+<!-- Universal skew logo script -->
+<script>
+function randomSkewLogo(logoId) {
+    const letters = document.querySelectorAll(`#${logoId} .skewed-letter`);
+    letters.forEach(letter => {
+        const skewX = (Math.random() - 0.5) * 120; // Random between -60 and 60
+        const skewY = (Math.random() - 0.5) * 100; // Random between -50 and 50
+        const rotate = (Math.random() - 0.5) * 360; // Random rotation between -180 and 180
+        letter.style.transform = `skew(${skewX}deg, ${skewY}deg) rotate(${rotate}deg)`;
+    });
+}
+
+function delayedSkewLogo(logoId, delay = 1000) {
+    const letters = document.querySelectorAll(`#${logoId} .skewed-letter`);
+    // First, ensure letters start straight
+    letters.forEach(letter => {
+        letter.style.transform = 'skew(0deg, 0deg) rotate(0deg)';
+    });
+    
+    // After delay, animate to skewed state
+    setTimeout(() => {
+        randomSkewLogo(logoId);
+    }, delay);
+}
+
+function straightenLogo(logoId) {
+    const letters = document.querySelectorAll(`#${logoId} .skewed-letter`);
+    letters.forEach(letter => {
+        letter.style.transform = 'skew(0deg, 0deg) rotate(0deg)';
+    });
+}
+
+let hoverTimeouts = {}; // Store timeout IDs for each logo
+
+function initializeAllLogos() {
+    // All possible logo IDs
+    const logoIds = [
+        'logo-homepage-desktop', 'logo-homepage-mobile', 'logo-homepage-footer',
+        'logo-quickbooks-desktop', 'logo-quickbooks-mobile',
+        'logo-wayfinding-desktop', 'logo-wayfinding-mobile', 'logo-prudential-desktop',
+        'logo-prudential-mobile', 'logo-aboutme-desktop', 'logo-aboutme-mobile',
+        'logo-axios-desktop', 'logo-axios-mobile'
+    ];
+    
+    logoIds.forEach(logoId => {
+        const logoElement = document.getElementById(logoId);
+        if (logoElement) {
+            // For homepage logos, use delayed skew animation
+            if (logoId.includes('homepage')) {
+                delayedSkewLogo(logoId, 1000); // 1 second delay
+            } else {
+                // For other pages, apply random skew immediately
+                randomSkewLogo(logoId);
+            }
+            
+            // Add hover handlers for homepage logos
+            if (logoId.includes('homepage')) {
+                logoElement.addEventListener('mouseenter', function() {
+                    // Clear any existing timeout
+                    if (hoverTimeouts[logoId]) {
+                        clearTimeout(hoverTimeouts[logoId]);
+                    }
+                    // Straighten immediately on hover
+                    straightenLogo(logoId);
+                });
+                
+                logoElement.addEventListener('mouseleave', function() {
+                    // Random delay between 1-5 seconds before going skewed again
+                    const randomDelay = Math.random() * 4000 + 1000; // 1000-5000ms
+                    hoverTimeouts[logoId] = setTimeout(() => {
+                        randomSkewLogo(logoId);
+                    }, randomDelay);
+                });
+            }
+            
+            // Add click handler for re-skewing
+            logoElement.parentElement.addEventListener('click', function(e) {
+                e.preventDefault();
+                randomSkewLogo(logoId);
+                // Small delay then navigate
+                setTimeout(() => {
+                    window.location.href = this.getAttribute('href');
+                }, 200);
+            });
+        }
+    });
+}
+
+// Initialize all logos on page load
+document.addEventListener('DOMContentLoaded', initializeAllLogos);
+</script>
 <!-- END: Scripts -->
 
 </body>

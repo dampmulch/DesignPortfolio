@@ -28,16 +28,16 @@
     font-weight: bold;
 }
 .link-quickbooks-black{
-    color: #114B22;
+    color: #4CAF50;
     font-weight: bold;
 }
 
 .link-quickbooks-black:visited{
-    color: #114B22;
+    color: #4CAF50;
     font-weight: bold;
 }
 .link-quickbooks-black:hover{
-    color: #061f0c;
+    color: #66BB6A;
     font-weight: bold;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
@@ -167,6 +167,10 @@ a:active{
     transform-origin: center center !important;
 }
 
+.logo-spin:hover {
+    animation-play-state: paused !important;
+}
+
 @keyframes spin {
     0% {
         transform: rotate(0deg);
@@ -174,6 +178,24 @@ a:active{
     100% {
         transform: rotate(360deg);
     }
+}
+
+/* Skewed letter logo */
+.skewed-logo {
+    display: inline-flex;
+    align-items: baseline;
+    font-size: 1.78em;
+    font-weight: 450;
+    color: white;
+}
+
+.skewed-letter {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.skewed-logo:hover .skewed-letter {
+    transform: skew(0deg, 0deg) !important;
 }
 
 
